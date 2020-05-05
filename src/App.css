@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat&display=swap');
+
+
+
+.App{
+  min-height: 100vh;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  font-family: 'Caveat', cursive;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.search-form{
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar{
+  width: 50%;
+  border: none;
+  padding: 10px;
+}
+
+.search-button{
+  background-color: #fbc2eb;
+  border: none;
+  padding: 10px 20px;
+  color: black;
+  font-family: 'Caveat', cursive;
+  font-size: 12px;
+}
+
+ol li{
+  list-style-type: none;
+  text-align: center;
+  border:4px #fbc2eb outset;
+  border-radius: 24px;
+  padding: 10px;
+  margin-bottom: 5px;
+
+}
+
+.recipes{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
